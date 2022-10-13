@@ -2,12 +2,14 @@
 #include <string>
 using namespace std;
 
+
+
+
 int main() {
-	  //date to day
     int day, month, year, y, m, d, check, limit = 31;
     int iyear = 2020, imonth = 10, iday = 4;
     bool correct_year = false;
-    cout << "Enter date: ";
+    cout << "Input date: ";
     cin >> day;
     cout << "Enter month: ";
     cin >> month;
@@ -152,34 +154,35 @@ int main() {
     }
 
     switch (check) {
-        case 0:
-	        cout << "Sunday";
-            break;
+    case 0:
+        cout << "Sunday";
+        break;
 
-        case 1:
-            cout << "Monday";
-            break;
+    case 1:
+        cout << "Monday";
+        break;
 
-        case 2:
-            cout << "Tuesday";
-            break;
+    case 2:
+        cout << "Friday";
+        break;
 
-        case 3:
-            cout << "Wednesday";
-            break;
-    
-        case 4:
-            cout << "Thursday";
-            break;
+    case 3:
+        cout << "Thursday";
+        break;
 
-        case 5:
-            cout << "Friday";
-            break;
+    case 4:
+        cout << "Wednesday";
+        break;
 
-        case 6:
-            cout << "Saturday";
-            break;
+    case 5:
+        cout << "Friday";
+        break;
+
+    case 6:
+        cout << "Saturday";
+        break;
     }
+
 
 
 
