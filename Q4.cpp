@@ -1,19 +1,20 @@
 #include <iostream>
 #include <string>
+
 using namespace std;
 
-
-
-
 int main() {
+    //Date to day
     int day, month, year, y, m, d, check, limit = 31;
     int iyear = 2020, imonth = 10, iday = 4;
     bool correct_year = false;
+
     cout << "Input date: ";
     cin >> day;
     cout << "Enter month: ";
     cin >> month;
     cout << "Enter year: ";
+
     while (correct_year == false) {
         cin >> year;
         if (year >= 1900 && year <= 2500) {
@@ -23,9 +24,11 @@ int main() {
             cout << "Year should be between 1900 and 2500. Try again: ";
         }
     }
+
     y = iyear;
     m = imonth;
     d = 4;
+
     if ((year <= iyear && month < imonth) || (year < iyear)) {
 
         while (y != year || m != month) {
@@ -83,6 +86,7 @@ int main() {
             }
         }
     }
+
     else if ((year >= iyear && month > imonth) || (year > iyear)) {
         while (y != year || m != month) {
             d = d + 7;
@@ -137,6 +141,7 @@ int main() {
             }
         }
     }
+
     if (day < d) {
         while (d > day) {
             d = d - 7;
