@@ -36,7 +36,7 @@ int main() {
 
 	cout << "\n\nThe total number of months = " << yrs * 12 << endl;
 	cout << "The total inches of rainfall = " << total_inch_per_Rainfall << endl;
-	cout << "The average rainfall per month for the entire period = " << float(avg_rainfall);
+	cout << "The average rainfall per month for the entire period = " << float(avg_rainfall) << endl;
 
 	return 0;
 }
