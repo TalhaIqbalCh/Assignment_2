@@ -13,7 +13,7 @@ int main() {
 	cin >> growth_rate_A;
 	cout << "Enter the population of Town B\t";
 	cin >> pop_B;
-	cout << "Enter the % growth rate of Town A\t";
+	cout << "Enter the % growth rate of Town B\t";
 	cin >> growth_rate_B;
 
 	if (pop_A > 0 && pop_B && growth_rate_A > 0 && growth_rate_B > 0) {
