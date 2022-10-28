@@ -7,8 +7,12 @@ int main() {
     int date, month, yr;
     bool leap_yr = false, valid_date = true;
 
-    cout << "Enter the date, month and yr\t";
-    cin >> date >> month >> yr;
+    cout << "Enter the date\t";
+    cin >> date;
+    cout << "Enter the month\t";
+    cin >> month;
+    cout << "Enter the year\t";
+    cin >> yr;
 
     //checking leap year
     if (yr % 400 == 0) {
@@ -100,7 +104,7 @@ int main() {
     }
 
     if (valid_date == true)
-        cout << date << " / " << month << " / " << yr;
+        cout << endl << date << " / " << month << " / " << yr;
     else {
         cout << "Invalid Input";
     }
