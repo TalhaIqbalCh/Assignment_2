@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-	Prime Factors
+	//Prime Factors
 	int num, count = 2;
 
 	cout << "Enter a number\t";
